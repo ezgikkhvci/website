@@ -1,0 +1,146 @@
+﻿<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.auto-style2 {
+	border-width: 0px;
+}
+.auto-style3 {
+	text-align: left;
+}
+.auto-style4 {
+	text-align: center;
+}
+.auto-style5 {
+	text-align: center;
+	margin-left: 485px;
+}
+</style>
+</head>
+
+<div id="YanMenu" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+ &times;</a>
+
+
+
+    <a href="alt.html" target="main">
+    <img alt="" height="60" src="img/1.png" width="90" class="auto-style2"></a><br>
+    <a href="Hakkımda.html" target="main">
+    <img alt="" height="60" src="img/2.png" width="90" class="auto-style2"></a><br>
+    <a href="ozgecmis.html" target="main">
+    <img alt="" height="60" src="img/3.png" width="90" class="auto-style2"></a><br>
+    <a href="album.html" target="main">
+    <img alt="" height="60" src="img/4.png" width="90" class="auto-style2"></a><br>
+    <a href="iletisim.html" target="main">
+    <img alt="" height="60" src="img/5.png" width="90" class="auto-style2"></a><br>
+
+    
+    </div>
+
+<div id="main" class="auto-style3">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+
+  &#9776; </span>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("YanMenu").style.width = "160px";
+  document.getElementById("main").style.marginLeft = "160px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("YanMenu").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+<p><br></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<form method="get" action="mailto:ezgikkhvci@gmail.com">
+    <div class="auto-style5" style="width: 400px; height: 181px;">
+    <fieldset>
+        <legend class="auto-style4">Mail</legend><br>
+        <table align="center">
+            <tr>
+            <td style="height: 26px; width: 54px;">Konu  :</td>
+            <td style="height: 26px; width: 219px;">
+			<input type="text" name="subject" style="width: 212px" /></td>
+			 </tr>
+                   <tr>
+            <td style="width: 54px">Mesaj  :</td>
+            <td style="width: 219px">
+			<input type="text" name="body" style="width: 211px; height: 124px" /></td>
+        </tr>
+        </table>
+        &nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Mail Gönder" />&nbsp;&nbsp;&nbsp;&nbsp;            
+        <input type="reset" name="Submit2" value="Temizle" /></td>
+        
+      
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+</div>
+</form>
+
+
+
+<body style="background-image: url('img/18.png')">
+
